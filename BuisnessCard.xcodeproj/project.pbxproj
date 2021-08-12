@@ -11,6 +11,8 @@
 		DF12ABED26C49306001050CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12ABEC26C49306001050CE /* ContentView.swift */; };
 		DF12ABEF26C49307001050CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF12ABEE26C49307001050CE /* Assets.xcassets */; };
 		DF12ABF226C49307001050CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF12ABF126C49307001050CE /* Preview Assets.xcassets */; };
+		DF12ABFC26C495F1001050CE /* MonteCarlo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF12ABFB26C495F1001050CE /* MonteCarlo-Regular.ttf */; };
+		DF12AC0026C49EC2001050CE /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12ABFF26C49EC2001050CE /* infoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DF12ABEE26C49307001050CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF12ABF126C49307001050CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF12ABF326C49307001050CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF12ABFB26C495F1001050CE /* MonteCarlo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MonteCarlo-Regular.ttf"; sourceTree = "<group>"; };
+		DF12ABFF26C49EC2001050CE /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		DF12ABE926C49306001050CE /* BuisnessCard */ = {
 			isa = PBXGroup;
 			children = (
+				DF12ABFA26C495E2001050CE /* fonts */,
 				DF12ABEA26C49306001050CE /* BuisnessCardApp.swift */,
 				DF12ABEC26C49306001050CE /* ContentView.swift */,
+				DF12ABFF26C49EC2001050CE /* infoView.swift */,
 				DF12ABEE26C49307001050CE /* Assets.xcassets */,
 				DF12ABF326C49307001050CE /* Info.plist */,
 				DF12ABF026C49307001050CE /* Preview Content */,
@@ -67,6 +73,14 @@
 				DF12ABF126C49307001050CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF12ABFA26C495E2001050CE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF12ABFB26C495F1001050CE /* MonteCarlo-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF12ABFC26C495F1001050CE /* MonteCarlo-Regular.ttf in Resources */,
 				DF12ABF226C49307001050CE /* Preview Assets.xcassets in Resources */,
 				DF12ABEF26C49307001050CE /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF12AC0026C49EC2001050CE /* infoView.swift in Sources */,
 				DF12ABED26C49306001050CE /* ContentView.swift in Sources */,
 				DF12ABEB26C49306001050CE /* BuisnessCardApp.swift in Sources */,
 			);
